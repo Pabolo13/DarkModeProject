@@ -10,11 +10,22 @@ Body {
     font-family: 'Lato', sans-serif;
     background-color: #fff;
 }
+.DivPerfil {
+    background-color: cyan;
+    border: 2px solid blue;
+    border-radius: 50px ;
+    width: 40vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     width: 100vw;
     height:auto ;
+    margin-top: 50px;
+    align-items: center;
 }
 .ImgAndText {
     display: flex;
@@ -22,8 +33,12 @@ Body {
     align-items: center;
 }
 .Icon {
+    border: 2px solid blue;
     border-radius: 50%;
     height: 250px;
     width: 250px;
     margin: 30px;
+}
+article {
+    font-size: larger;
 }
